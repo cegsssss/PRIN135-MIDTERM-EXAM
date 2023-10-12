@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="signup.css">
+        <title>Sign Up</title>
+    </head>
+
+    <body>
+        <form action="#" method="post">
+            <h1>Sign Up</h1>
+
+            <label for="email">Given Name:</label>
+            <input type="text" id="name" name="name" size="30" placeholder="Enter given name" > 
+
+            <label for="password">Last Name:</label>
+            <input type="text" id="lname" name="lname"size="30" placeholder="Enter given name" >
+
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age"size="10" placeholder="Enter age" >
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" >
+                <option value="">Select a gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+
+            </select>
+            
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" >
+        
+            <label for="psw-repeat"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" >
+
+            <label for="year">Year Level</label>
+            <select id="year" name="year" >
+                <option value="">Select Year Level</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+            <p>What are your skills?(Check all that apply)</p>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="inline" for="btncheck1">Computer Check</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="inline" for="btncheck2" >Computer Networking</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="inline" for="btncheck3">Computer Programming</label>
+              
+
+                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                <label class="inline" for="btncheck4">Database Management</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                <label class="inline" for="btncheck3">System Administration</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                <label class="inline" for="btncheck6">User Interface/Experience</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                <label class="inline" for="btncheck7">Web Development</label>
+              </div>
+              <br>
+
+            <label for="other-skills">Other skills not mentioned above:<br>
+                <textarea id="other-skills" name="other-skills" rows="8" cols="60" placeholder="Enter other skills here..."></textarea>
+
+            <input type="submit" value="Sign Up" />
+            <input type="submit" value="Back to Login" href="../Login Page/login.html"/>
+        </form>
+    </body>
+</html>

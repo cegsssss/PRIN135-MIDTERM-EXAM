@@ -2,16 +2,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-image: url(https://picsum.photos/1080/720?random=1);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin:0;
     padding:auto;
     display:flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
-    background-size: 100%;
 }
-
 form{
     background: rgba(0,0,0,0.7);
     border-radius: 5px;
@@ -39,9 +38,23 @@ input[type="submit"] {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: rgba(0,0,255,0.7);
+    background-color: rgba(0,255,0,0.3);
     text-align: center;
     color: white;
+    float: center;
+    min-width: 300px;
+}
+
+input[type="submit"]:hover {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgba(0,255,255,0.3);
+    text-align: center;
+    color: white;
+    float: center;
     min-width: 300px;
 }
 

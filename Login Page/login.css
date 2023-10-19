@@ -46,8 +46,11 @@ input[type="login"] {
     min-width: 300px;
 }
 
-span.psw{
+span.frgt{
     color:white;
     float: right;
 }
 
+.psw:hover{
+    background-color:green;
+}
